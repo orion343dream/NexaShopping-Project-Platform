@@ -1,9 +1,9 @@
 [submodule "api-gateway"]
 	path = api-gateway
-	url = https://github.com/orion343dream/NexaShopping-ApiGateway.git
+    url = git@github.com:orion343dream/NexaShopping-ApiGateway.git
 [submodule "config-server"]
 	path = config-server
-	url = https://github.com/orion343dream/NexaShopping-ConfigServer.git
+    url = git@github.com:orion343dream/NexaShopping-ConfigServer.git
 [submodule "service-registry"]
 	path = service-registry
-	url = https://github.com/orion343dream/NexaShopping-ServiceRegistry.git
+    url = git@github.com:orion343dream/NexaShopping-ServiceRegistry.git
