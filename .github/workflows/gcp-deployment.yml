@@ -13,7 +13,7 @@ jobs:
         REGION: asia-southeast1
         ZONE: asia-southeast1-a
         USER_NAME: sadaruwan_optimous
-        IMAGE_NAME: vm-nexashopping-boot-image-v2
+        IMAGE_NAME: vm-platform-seed-boot-image
 
 
       permissions:
