@@ -9,7 +9,7 @@ jobs:
       env:
         VM_NAME: vm-platform-seed
         INSTANCE_GROUP: mig-platform
-        INSTANCE_TEMPLATE: tmp-vm-platform-template--v2
+        INSTANCE_TEMPLATE: tmp-vm-platform-seed-v1
         REGION: asia-southeast1
         ZONE: asia-southeast1-a
         USER_NAME: sadaruwan_optimous
