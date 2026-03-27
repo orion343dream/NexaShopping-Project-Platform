@@ -7,9 +7,9 @@ jobs:
 
 
       env:
-        VM_NAME: vm-nexashopping-seed
-        INSTANCE_GROUP: mig-nexashopping
-        INSTANCE_TEMPLATE: tmp-vm-nexashopping-template--v2
+        VM_NAME: vm-platform-seed
+        INSTANCE_GROUP: mig-platform
+        INSTANCE_TEMPLATE: tmp-vm-platform-template--v2
         REGION: asia-southeast1
         ZONE: asia-southeast1-a
         USER_NAME: dilushasandaruwan
@@ -33,13 +33,13 @@ jobs:
           uses: google-github-actions/setup-gcloud@v3.0.1
 
 
-        - name: Start the vm-nexashopping-seed
+        - name: Start the vm-nexashopping-platform-seed
           run: gcloud compute instances start ${{ env.VM_NAME }} --zone=${{ env.ZONE }}
 
         - name: Connect with the vm-nexashopping-seed through SSH,pull the latest code and build the project
           run: >
               gcloud compute ssh ${{env.USER_NAME}}@${{ env.VM_NAME }} --zone=${{ env.ZONE }}
-              --command "echo 'Connected to the vm-nexashopping-seed successfully!' &&
+              --command "echo 'Connected to the vm-nexashopping-playform-seed successfully!' &&
               cd NexaShopping-Project-Platform/ &&
               git pull --recurse-submodules &&
               source ~/.bashrc &&
