@@ -12,7 +12,7 @@ jobs:
         INSTANCE_TEMPLATE: tmp-vm-nexashopping-template--v2
         REGION: asia-southeast1
         ZONE: asia-southeast1-a
-        USER_NAME: himanthajamburuthugoda
+        USER_NAME: dilushasandaruwan
         IMAGE_NAME: vm-nexashopping-boot-image-v2
 
 
