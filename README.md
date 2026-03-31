@@ -4,7 +4,20 @@ A modern **microservices-based e-commerce platform** built with **Spring Cloud**
 
 ---
 
-## 📋 Table of Contents
+## �‍🎓 Project Details
+
+| Field          | Value |
+|----------------|---|
+| Student Name   | Dilusha Sandaruwan |
+| Student Number | 2301691099 |
+| Slack Handle   | Dilusha Sandaruwan |
+| Module         | ITS 2130 Enterprise Cloud Application |
+| Program        | GDSE @ IJSE |
+| GCP Project ID | nexashopping-enterprise |
+
+---
+
+## �📋 Table of Contents
 
 - [Overview](#overview)
 - [Architecture](#architecture)
